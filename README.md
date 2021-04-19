@@ -6,7 +6,7 @@ Hans Peter Luhn, a German with short history knowledge, was developed by our bro
 3. The sums of the numbers with odd indices should be transferred to another variable.
 4. Finally, we will check whether the sum of the two variables is divided by 10.
 
-`private bool generate(string pKartNo)
+` private bool generate(string pKartNo)
 {
 int toplam = 0;
 for (int i = 0; i < 16; i++)
@@ -27,4 +27,5 @@ if (toplam % 10 == 0)
 return true;
 else
 return false;
-}`
+} `
+ Alternate:  [Credit Card Generator](https://github.com/web-apply/Credit-Card-Generator)
